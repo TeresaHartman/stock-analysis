@@ -9,6 +9,10 @@ The purpose of this project is to analyze twelve different green energy stocks t
 ![2018 Stock Return](/Resources/2018_stock_return.PNG)
 
 ![2017_original_time.PNG](/Resources/2017_original_time.PNG)
+![2017_refactored_time.PNG](/Resources/2017_refactored_time.PNG)
+
+![2018_original_time.PNG](/Resources/2018_original_time.PNG)
+![2018_refactored_time.PNG](/Resources/2018_refactored_time.PNG)
 
 
 
