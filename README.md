@@ -33,9 +33,17 @@ The clients of this project specifically wanted to invest in DQ stock. While we 
 
 ### Coding Execution Times
 
-In the original VBA code, the code ran through the each ticker (each stock) and then calculated the criteria for each stock (total volume, starting price for each year, and ending price for each year). This means it ran through all of the rows of the worksheet 12 different times to first consider what stock it was evaluating, and then calculating those three values for each stock/ticker. 
+In the original VBA code, as seen in the graph below, the code ran through the each ticker (each stock) and then calculated the criteria for each stock (total volume, starting price for each year, and ending price for each year). This means it ran through all of the rows of the worksheet 12 different times to first consider what stock it was evaluating, and then calculating those three values for each stock/ticker. 
+![OriginalCode.PNG](/Resources/OriginalCode.PNG)
 
-In the reformatted VBA code, it only had to run through all the rows of the worksheet once. While running through the rows, it sorted the tickers/stocks into arrays, and then evaluated the same three necessary data values as the original code. Since the code only had to run through all of the rows of the worksheet once, then it decreased the time to execute the calculations substantially.
+In the reformatted VBA code, seen below, it only had to run through all the rows of the worksheet once. While running through the rows, it sorted the tickers/stocks into arrays, and then evaluated the same three necessary data values as the original code. Since the code only had to run through all of the rows of the worksheet once, then it decreased the time to execute the calculations substantially.
+![Reformated_code.PNG](/Resources/Reformated_code.PNG)
+
+## Summary
+
+As seen in the images below, an advantage of reformatting code is the substation decrease of time it took for the program to run through the necessary calculators. On the left images, we can see that the original VBA code took somewhere between .6 and .7 seconds to make all the necessary calculations. On the right, we can see that the reformatted code took less than .1 second to make the same calculations. 
+
+However, one disadvantage of reformatting code, is the time it takes for the programmer to update the computer program. That is, if is even possible to rewrite and make it better. 
 
 ![2017_original_time.PNG](/Resources/2017_original_time.PNG)
 ![2017_refactored_time.PNG](/Resources/2017_refactored_time.PNG)
@@ -43,6 +51,8 @@ In the reformatted VBA code, it only had to run through all the rows of the work
 ![2018_original_time.PNG](/Resources/2018_original_time.PNG)
 ![2018_refactored_time.PNG](/Resources/2018_refactored_time.PNG)
 
+One pro of refactoring this VBA code is that it decreased the time for the code to run by approximately 85%. However, noticing that the original code made the necessary calculations in under a second, it may not have been worth the time to refactor the code to make such a minimal decrease. 
 
 
-## Summary
+
+
